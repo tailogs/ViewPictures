@@ -1,0 +1,804 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBoxMain.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBoxMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 35</value>
+  </data>
+  <data name="pictureBoxMain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="pictureBoxMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>638, 380</value>
+  </data>
+  <data name="pictureBoxMain.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBoxMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxMain.Name" xml:space="preserve">
+    <value>pictureBoxMain</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="menuStripMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="файлToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 20</value>
+  </data>
+  <data name="файлToolStripMenuItem.Text" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="изображениеToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 20</value>
+  </data>
+  <data name="изображениеToolStripMenuItem.Text" xml:space="preserve">
+    <value>Изображение</value>
+  </data>
+  <data name="настройкиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 20</value>
+  </data>
+  <data name="настройкиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="разработчикFadisNetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="разработчикFadisNetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Разработчик: Tailogs</value>
+  </data>
+  <data name="помощьToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 20</value>
+  </data>
+  <data name="помощьToolStripMenuItem.Text" xml:space="preserve">
+    <value>Помощь</value>
+  </data>
+  <data name="menuStripMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStripMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 24</value>
+  </data>
+  <data name="menuStripMain.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="menuStripMain.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStripMain.Name" xml:space="preserve">
+    <value>menuStripMain</value>
+  </data>
+  <data name="&gt;&gt;menuStripMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStripMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStripMain.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="открытьToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="открытьToolStripMenuItem.Text" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="экспортироватьToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="экспортироватьToolStripMenuItem.Text" xml:space="preserve">
+    <value>Экспортировать</value>
+  </data>
+  <data name="копироватьToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="копироватьToolStripMenuItem.Text" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="вставитьToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="вставитьToolStripMenuItem.Text" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="извлечьToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="извлечьToolStripMenuItem.Text" xml:space="preserve">
+    <value>Извлечь</value>
+  </data>
+  <data name="закрытьToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="закрытьToolStripMenuItem.Text" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="выходToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="выходToolStripMenuItem.Text" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="повернутьНа90ГрадусовToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>308, 22</value>
+  </data>
+  <data name="повернутьНа90ГрадусовToolStripMenuItem.Text" xml:space="preserve">
+    <value>Повернуть на 90 градусов</value>
+  </data>
+  <data name="повернутьНа180ГрадусовToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>308, 22</value>
+  </data>
+  <data name="повернутьНа180ГрадусовToolStripMenuItem.Text" xml:space="preserve">
+    <value>Повернуть на 180 градусов</value>
+  </data>
+  <data name="отразитьПоГоризонталиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>308, 22</value>
+  </data>
+  <data name="отразитьПоГоризонталиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Отразить по горизонтали</value>
+  </data>
+  <data name="отразитьПоВертикалиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>308, 22</value>
+  </data>
+  <data name="отразитьПоВертикалиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Отразить по вертикали</value>
+  </data>
+  <data name="информацияОФотоToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>308, 22</value>
+  </data>
+  <data name="информацияОФотоToolStripMenuItem.Text" xml:space="preserve">
+    <value>Информация о фото</value>
+  </data>
+  <data name="режимМасштабированияToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>308, 22</value>
+  </data>
+  <data name="режимМасштабированияToolStripMenuItem.Text" xml:space="preserve">
+    <value>Режим масштабирования</value>
+  </data>
+  <data name="обрезатьToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>308, 22</value>
+  </data>
+  <data name="обрезатьToolStripMenuItem.Text" xml:space="preserve">
+    <value>Обрезать</value>
+  </data>
+  <data name="установитьИзображениеНаРабочийСтолToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>308, 22</value>
+  </data>
+  <data name="установитьИзображениеНаРабочийСтолToolStripMenuItem.Text" xml:space="preserve">
+    <value>Установить изображение на рабочий стол</value>
+  </data>
+  <data name="фильтрыToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>308, 22</value>
+  </data>
+  <data name="фильтрыToolStripMenuItem.Text" xml:space="preserve">
+    <value>Фильтры</value>
+  </data>
+  <data name="чернобелыйToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 22</value>
+  </data>
+  <data name="чернобелыйToolStripMenuItem.Text" xml:space="preserve">
+    <value>Черно-белый</value>
+  </data>
+  <data name="сепияToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 22</value>
+  </data>
+  <data name="сепияToolStripMenuItem.Text" xml:space="preserve">
+    <value>Сепия</value>
+  </data>
+  <data name="ретроToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 22</value>
+  </data>
+  <data name="ретроToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ретро</value>
+  </data>
+  <data name="негативToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 22</value>
+  </data>
+  <data name="негативToolStripMenuItem.Text" xml:space="preserve">
+    <value>Негатив</value>
+  </data>
+  <data name="контрастностьToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 22</value>
+  </data>
+  <data name="контрастностьToolStripMenuItem.Text" xml:space="preserve">
+    <value>Контрастность</value>
+  </data>
+  <data name="резкостьToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 22</value>
+  </data>
+  <data name="резкостьToolStripMenuItem.Text" xml:space="preserve">
+    <value>Резкость</value>
+  </data>
+  <data name="зерноToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 22</value>
+  </data>
+  <data name="зерноToolStripMenuItem.Text" xml:space="preserve">
+    <value>Зерно</value>
+  </data>
+  <data name="темнаяТемаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="темнаяТемаToolStripMenuItem.Text" xml:space="preserve">
+    <value>Темная тема</value>
+  </data>
+  <data name="светлаяТемаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="светлаяТемаToolStripMenuItem.Text" xml:space="preserve">
+    <value>Светлая тема</value>
+  </data>
+  <data name="настроитьСвюТемуToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="настроитьСвюТемуToolStripMenuItem.Text" xml:space="preserve">
+    <value>Настроить свю тему</value>
+  </data>
+  <data name="настройкиToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="настройкиToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>652, 426</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAQEAAAAEAGAAoMgAAFgAAACgAAABAAAAAgAAAAAEAGAAAAAAAKDIAAAAAAAAAAAAAAAAAAAAA
+        AABjV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9n///////////////////////////////////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////////////////////////////////////
+        //////////////////////////////////////////////////////////////////9jV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9n///////////////////////////////////////////////9jV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////////////////////////////////////////////
+        //9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////////////////////////////
+        //////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9n/////////////////////////////////////////////////////////////////////
+        //////////////////////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////////////
+        //////////////////////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9n///////////////////////////9jV9ljV9ljV9n/////////////
+        //9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n///////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9n///////////////////////////////////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n///////////////////////9jV9ljV9ljV9n/
+        //////////////////////////////////////////////////////////////////9jV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9n///////////////9jV9ljV9ljV9n///////////////////9jV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n///////////////////9j
+        V9ljV9ljV9n/////////////////////////////////////////////////////////////////////
+        //9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n///////////////9jV9ljV9n///9jV9n/////////////
+        //9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////
+        //////////9jV9ljV9ljV9n/////////////////////////////////////////////////////////
+        //////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n///////////////9jV9n///9jV9lj
+        V9n///////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9n///////////////9jV9ljV9n/////////////////////////////////////////////
+        //////////////////////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////////////
+        //////9jV9ljV9ljV9n///////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9n///////////////9jV9n///////////////////////////9jV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9n///////////////////////////////////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////////////////////////////////////
+        //////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9n///////////////////////////////////////////////9jV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////////////////////
+        //////////////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////////////////////////////////////////////
+        //9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////
+        //////////////////////////////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////////////////////////////
+        //////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9n///////////////////////////////////////////////9jV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////////////
+        //////////////////////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9n///////////////////////////////////////////////9jV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9n///////////////9jV9ljV9ljV9n///////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n///////////////////9jV9ljV9n/////////
+        //////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9n///////////////9jV9n///9jV9ljV9n///////////////9jV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n///////////////////9j
+        V9ljV9n///////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n///////////////9jV9n///////9jV9n/////////////
+        //9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////
+        //////////9jV9n///////9jV9n///////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n///////////////9jV9n///9jV9lj
+        V9n///////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9n///////////////9jV9n///////9jV9n///////////////9jV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////////////
+        //9jV9ljV9ljV9n///////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9n///////////////////9jV9ljV9n///////////////////9jV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9n///////////////////////////////////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n///////////////////9jV9ljV9n/////////
+        //////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9n///////////////////////////////////////////////9jV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////////////////////
+        //////////////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////////////////////////////////////////////
+        //9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////
+        //////////////////////////////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////////////////////////////
+        //////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9n///////////////////////////////////////////////9jV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////////////
+        //////////////////////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9n///////////////////////////////////////////////9jV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9n///////////////9jV9ljV9ljV9n///////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n///////////////////9jV9ljV9n/////////
+        //////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9n///////////////9jV9ljV9n///9jV9n///////////////9jV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n///////////////////9j
+        V9ljV9n///////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n///////////////9jV9n///9jV9ljV9n/////////////
+        //9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////
+        //////////9jV9n///////9jV9n///////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n///////////////////9jV9ljV9lj
+        V9n///////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9n///////////////9jV9n///////9jV9n///////////////9jV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //9jV9ljV9ljV9ljV9ljV9ljV9n///////////////////9jV9ljV9n///////////////////9jV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9n/////////////////////////////////////////////////////////////////////////////
+        //////////////////9jV9ljV9ljV9ljV9ljV9ljV9n///////////////////9jV9ljV9n/////////
+        //////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9n/////////////////////////////////////////////////////////////
+        //////////////////////////////////9jV9ljV9ljV9ljV9ljV9ljV9n/////////////////////
+        //////////////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////////////////////////////////////////////
+        //////////////////////////////////////////////////9jV9ljV9ljV9ljV9ljV9ljV9n/////
+        //////////////////////////////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////////////////////////////
+        //////////////////////////////////////////////////////////////////9jV9ljV9ljV9lj
+        V9ljV9ljV9n///////////////////////////////////////////////9jV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //9jV9ljV9ljV9ljV9ljV9ljV9n///////////////////////////////////////////////9jV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9n///////////////9jV9ljV9ljV9n///////////////////9jV9ljV9ljV9ljV9ljV9ljV9n/////
+        //////////////////9jV9ljV9ljV9ljV9ljV9ljV9n///////////////////9jV9ljV9n/////////
+        //////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9n///////////////9jV9n///9jV9ljV9n///////////////9jV9ljV9ljV9lj
+        V9ljV9ljV9n///////////////////////9jV9ljV9ljV9ljV9ljV9ljV9n///////////////////9j
+        V9ljV9n///////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n///////////////9jV9n///////9jV9n/////////////
+        //9jV9ljV9ljV9ljV9ljV9ljV9n///////////////////////9jV9ljV9ljV9ljV9ljV9ljV9n/////
+        //////////9jV9n///////9jV9n///////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n///////////////9jV9n///9jV9lj
+        V9n///////////////9jV9ljV9ljV9ljV9ljV9ljV9n///////////////////////9jV9ljV9ljV9lj
+        V9ljV9ljV9n///////////////9jV9n///////9jV9n///////////////9jV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////////////
+        //9jV9ljV9ljV9n///////////////////9jV9ljV9ljV9ljV9ljV9ljV9n/////////////////////
+        //9jV9ljV9ljV9ljV9ljV9ljV9n///////////////////9jV9ljV9n///////////////////9jV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9n///////////////////////////////////////////////9jV9ljV9ljV9ljV9ljV9ljV9n/////
+        //////////////////9jV9ljV9ljV9ljV9ljV9ljV9n///////////////////9jV9ljV9n/////////
+        //////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9n///////////////////////////////////////////////9jV9ljV9ljV9lj
+        V9ljV9ljV9n///////////////////////9jV9ljV9ljV9ljV9ljV9ljV9n/////////////////////
+        //////////////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////////////////////////////////////////////
+        //9jV9ljV9ljV9ljV9ljV9ljV9n///////////////////////9jV9ljV9ljV9ljV9ljV9ljV9n/////
+        //////////////////////////////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////////////////////////////
+        //////////////////9jV9ljV9ljV9ljV9ljV9ljV9n///////////////////////9jV9ljV9ljV9lj
+        V9ljV9ljV9n///////////////////////////////////////////////9jV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////////////
+        //////////////////////////////////9jV9ljV9ljV9ljV9ljV9ljV9n/////////////////////
+        //9jV9ljV9ljV9ljV9ljV9ljV9n///////////////////////////////////////////////9jV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9n///////////////9jV9ljV9ljV9n///////////////////9jV9ljV9ljV9ljV9ljV9ljV9n/////
+        //////////////////9jV9ljV9ljV9ljV9ljV9ljV9n///////////////////9jV9ljV9n/////////
+        //////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9n///////////////9jV9ljV9n///9jV9n///////////////9jV9ljV9ljV9lj
+        V9ljV9ljV9n///////////////////////9jV9ljV9ljV9ljV9ljV9ljV9n///////////////////9j
+        V9ljV9n///////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n///////////////9jV9n///9jV9ljV9n/////////////
+        //9jV9ljV9ljV9ljV9ljV9ljV9n///////////////////////9jV9ljV9ljV9ljV9ljV9ljV9n/////
+        //////////9jV9n///////9jV9n///////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n///////////////////9jV9ljV9lj
+        V9n///////////////9jV9ljV9ljV9ljV9ljV9ljV9n///////////////////////9jV9ljV9ljV9lj
+        V9ljV9ljV9n///////////////9jV9n///////9jV9n///////////////9jV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //9jV9ljV9ljV9ljV9ljV9ljV9n///////////////////9jV9ljV9n///////////////////9jV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9n/////////////////////////////////////////////////////////////////////////////
+        //////////////////9jV9ljV9ljV9ljV9ljV9ljV9n///////////////////9jV9ljV9n/////////
+        //////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9n/////////////////////////////////////////////////////////////
+        //////////////////////////////////9jV9ljV9ljV9ljV9ljV9ljV9n/////////////////////
+        //////////////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////////////////////////////////////////////
+        //////////////////////////////////////////////////9jV9ljV9ljV9ljV9ljV9ljV9n/////
+        //////////////////////////////////////////9jV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////////////////////////////
+        //////////////////////////////////////////////////////////////////9jV9ljV9ljV9lj
+        V9ljV9ljV9n///////////////////////////////////////////////9jV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9n/////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //9jV9ljV9ljV9ljV9ljV9ljV9n///////////////////////////////////////////////9jV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9lj
+        V9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9ljV9kAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Просмотрщик изображений</value>
+  </data>
+  <data name="&gt;&gt;файлToolStripMenuItem.Name" xml:space="preserve">
+    <value>файлToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;файлToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;открытьToolStripMenuItem.Name" xml:space="preserve">
+    <value>открытьToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;открытьToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;экспортироватьToolStripMenuItem.Name" xml:space="preserve">
+    <value>экспортироватьToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;экспортироватьToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;копироватьToolStripMenuItem.Name" xml:space="preserve">
+    <value>копироватьToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;копироватьToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;вставитьToolStripMenuItem.Name" xml:space="preserve">
+    <value>вставитьToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;вставитьToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;извлечьToolStripMenuItem.Name" xml:space="preserve">
+    <value>извлечьToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;извлечьToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;закрытьToolStripMenuItem.Name" xml:space="preserve">
+    <value>закрытьToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;закрытьToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;выходToolStripMenuItem.Name" xml:space="preserve">
+    <value>выходToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;выходToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;изображениеToolStripMenuItem.Name" xml:space="preserve">
+    <value>изображениеToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;изображениеToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;повернутьНа90ГрадусовToolStripMenuItem.Name" xml:space="preserve">
+    <value>повернутьНа90ГрадусовToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;повернутьНа90ГрадусовToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;повернутьНа180ГрадусовToolStripMenuItem.Name" xml:space="preserve">
+    <value>повернутьНа180ГрадусовToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;повернутьНа180ГрадусовToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;отразитьПоГоризонталиToolStripMenuItem.Name" xml:space="preserve">
+    <value>отразитьПоГоризонталиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;отразитьПоГоризонталиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;отразитьПоВертикалиToolStripMenuItem.Name" xml:space="preserve">
+    <value>отразитьПоВертикалиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;отразитьПоВертикалиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;информацияОФотоToolStripMenuItem.Name" xml:space="preserve">
+    <value>информацияОФотоToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;информацияОФотоToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;режимМасштабированияToolStripMenuItem.Name" xml:space="preserve">
+    <value>режимМасштабированияToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;режимМасштабированияToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;обрезатьToolStripMenuItem.Name" xml:space="preserve">
+    <value>обрезатьToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;обрезатьToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;установитьИзображениеНаРабочийСтолToolStripMenuItem.Name" xml:space="preserve">
+    <value>установитьИзображениеНаРабочийСтолToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;установитьИзображениеНаРабочийСтолToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;фильтрыToolStripMenuItem.Name" xml:space="preserve">
+    <value>фильтрыToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;фильтрыToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;чернобелыйToolStripMenuItem.Name" xml:space="preserve">
+    <value>чернобелыйToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;чернобелыйToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;сепияToolStripMenuItem.Name" xml:space="preserve">
+    <value>сепияToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;сепияToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ретроToolStripMenuItem.Name" xml:space="preserve">
+    <value>ретроToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ретроToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;негативToolStripMenuItem.Name" xml:space="preserve">
+    <value>негативToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;негативToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;контрастностьToolStripMenuItem.Name" xml:space="preserve">
+    <value>контрастностьToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;контрастностьToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;резкостьToolStripMenuItem.Name" xml:space="preserve">
+    <value>резкостьToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;резкостьToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;зерноToolStripMenuItem.Name" xml:space="preserve">
+    <value>зерноToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;зерноToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;настройкиToolStripMenuItem.Name" xml:space="preserve">
+    <value>настройкиToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;настройкиToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;темнаяТемаToolStripMenuItem.Name" xml:space="preserve">
+    <value>темнаяТемаToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;темнаяТемаToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;светлаяТемаToolStripMenuItem.Name" xml:space="preserve">
+    <value>светлаяТемаToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;светлаяТемаToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;настроитьСвюТемуToolStripMenuItem.Name" xml:space="preserve">
+    <value>настроитьСвюТемуToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;настроитьСвюТемуToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;настройкиToolStripMenuItem1.Name" xml:space="preserve">
+    <value>настройкиToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;настройкиToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;помощьToolStripMenuItem.Name" xml:space="preserve">
+    <value>помощьToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;помощьToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;разработчикFadisNetToolStripMenuItem.Name" xml:space="preserve">
+    <value>разработчикFadisNetToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;разработчикFadisNetToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ViewPictures.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="theme" Type="System.String" Scope="User">
+      <Value Profile="(Default)">светлая</Value>
+    </Setting>
+    <Setting Name="width" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">668</Value>
+    </Setting>
+    <Setting Name="height" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">465</Value>
+    </Setting>
+    <Setting Name="backgroundColorInterface" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">IndianRed</Value>
+    </Setting>
+    <Setting Name="backgroundColorElements" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">IndianRed</Value>
+    </Setting>
+    <Setting Name="backgroundColorMenu" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">LightCoral</Value>
+    </Setting>
+    <Setting Name="colorTextInterface" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">ControlLightLight</Value>
+    </Setting>
+    <Setting Name="colorTextElements" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">ControlLightLight</Value>
+    </Setting>
+    <Setting Name="fontSizeText" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">Microsoft Sans Serif, 14.25pt</Value>
+    </Setting>
+    <Setting Name="fontSizeTextString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Microsoft Sans Serif; 14,25pt</Value>
+    </Setting>
+    <Setting Name="language" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ru-RU</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

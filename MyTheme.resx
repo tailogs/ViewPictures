@@ -1,0 +1,600 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lvlBackgroundColarInterface.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lvlBackgroundColarInterface.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="lvlBackgroundColarInterface.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 22</value>
+  </data>
+  <data name="lvlBackgroundColarInterface.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 24</value>
+  </data>
+  <data name="lvlBackgroundColarInterface.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lvlBackgroundColarInterface.Text" xml:space="preserve">
+    <value>Фоновой цвет интерфейса:</value>
+  </data>
+  <data name="&gt;&gt;lvlBackgroundColarInterface.Name" xml:space="preserve">
+    <value>lvlBackgroundColarInterface</value>
+  </data>
+  <data name="&gt;&gt;lvlBackgroundColarInterface.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lvlBackgroundColarInterface.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lvlBackgroundColarInterface.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblBackgroundColorMenu.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBackgroundColorMenu.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="lblBackgroundColorMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 120</value>
+  </data>
+  <data name="lblBackgroundColorMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 24</value>
+  </data>
+  <data name="lblBackgroundColorMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblBackgroundColorMenu.Text" xml:space="preserve">
+    <value>Фоновой цвет меню:</value>
+  </data>
+  <data name="&gt;&gt;lblBackgroundColorMenu.Name" xml:space="preserve">
+    <value>lblBackgroundColorMenu</value>
+  </data>
+  <data name="&gt;&gt;lblBackgroundColorMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBackgroundColorMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblBackgroundColorMenu.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblColorTextInterface.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblColorTextInterface.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="lblColorTextInterface.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 168</value>
+  </data>
+  <data name="lblColorTextInterface.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 24</value>
+  </data>
+  <data name="lblColorTextInterface.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblColorTextInterface.Text" xml:space="preserve">
+    <value>Цвет текста интерфейса:</value>
+  </data>
+  <data name="&gt;&gt;lblColorTextInterface.Name" xml:space="preserve">
+    <value>lblColorTextInterface</value>
+  </data>
+  <data name="&gt;&gt;lblColorTextInterface.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblColorTextInterface.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblColorTextInterface.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblFontSizeText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFontSizeText.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblFontSizeText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="lblFontSizeText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 267</value>
+  </data>
+  <data name="lblFontSizeText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 24</value>
+  </data>
+  <data name="lblFontSizeText.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblFontSizeText.Text" xml:space="preserve">
+    <value>Настройка шрифта:</value>
+  </data>
+  <data name="&gt;&gt;lblFontSizeText.Name" xml:space="preserve">
+    <value>lblFontSizeText</value>
+  </data>
+  <data name="&gt;&gt;lblFontSizeText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFontSizeText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblFontSizeText.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="textBoxBackgroundColorInterface.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="textBoxBackgroundColorInterface.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 17</value>
+  </data>
+  <data name="textBoxBackgroundColorInterface.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 29</value>
+  </data>
+  <data name="textBoxBackgroundColorInterface.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;textBoxBackgroundColorInterface.Name" xml:space="preserve">
+    <value>textBoxBackgroundColorInterface</value>
+  </data>
+  <data name="&gt;&gt;textBoxBackgroundColorInterface.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxBackgroundColorInterface.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxBackgroundColorInterface.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="textBoxBackgroundColorMenu.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="textBoxBackgroundColorMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 115</value>
+  </data>
+  <data name="textBoxBackgroundColorMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 29</value>
+  </data>
+  <data name="textBoxBackgroundColorMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;textBoxBackgroundColorMenu.Name" xml:space="preserve">
+    <value>textBoxBackgroundColorMenu</value>
+  </data>
+  <data name="&gt;&gt;textBoxBackgroundColorMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxBackgroundColorMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxBackgroundColorMenu.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="textBoxColorTextInterface.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="textBoxColorTextInterface.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 166</value>
+  </data>
+  <data name="textBoxColorTextInterface.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 29</value>
+  </data>
+  <data name="textBoxColorTextInterface.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;textBoxColorTextInterface.Name" xml:space="preserve">
+    <value>textBoxColorTextInterface</value>
+  </data>
+  <data name="&gt;&gt;textBoxColorTextInterface.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxColorTextInterface.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxColorTextInterface.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="textBoxFontSizeText.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBoxFontSizeText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="textBoxFontSizeText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 266</value>
+  </data>
+  <data name="textBoxFontSizeText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 29</value>
+  </data>
+  <data name="textBoxFontSizeText.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="textBoxFontSizeText.Text" xml:space="preserve">
+    <value>\\\\ отключена \\\\</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="textBoxFontSizeText.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBoxFontSizeText.Name" xml:space="preserve">
+    <value>textBoxFontSizeText</value>
+  </data>
+  <data name="&gt;&gt;textBoxFontSizeText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxFontSizeText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxFontSizeText.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnResetSettings.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="btnResetSettings.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="btnResetSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 319</value>
+  </data>
+  <data name="btnResetSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 42</value>
+  </data>
+  <data name="btnResetSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnResetSettings.Text" xml:space="preserve">
+    <value>Сбросить настройки темы</value>
+  </data>
+  <data name="&gt;&gt;btnResetSettings.Name" xml:space="preserve">
+    <value>btnResetSettings</value>
+  </data>
+  <data name="&gt;&gt;btnResetSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnResetSettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnResetSettings.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnSettingsSave.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="btnSettingsSave.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="btnSettingsSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 319</value>
+  </data>
+  <data name="btnSettingsSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 42</value>
+  </data>
+  <data name="btnSettingsSave.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnSettingsSave.Text" xml:space="preserve">
+    <value>Применить тему</value>
+  </data>
+  <data name="&gt;&gt;btnSettingsSave.Name" xml:space="preserve">
+    <value>btnSettingsSave</value>
+  </data>
+  <data name="&gt;&gt;btnSettingsSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSettingsSave.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnSettingsSave.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="textBoxColorTextElements.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="textBoxColorTextElements.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 216</value>
+  </data>
+  <data name="textBoxColorTextElements.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 29</value>
+  </data>
+  <data name="textBoxColorTextElements.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;textBoxColorTextElements.Name" xml:space="preserve">
+    <value>textBoxColorTextElements</value>
+  </data>
+  <data name="&gt;&gt;textBoxColorTextElements.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxColorTextElements.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxColorTextElements.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblColorTextElements.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblColorTextElements.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="lblColorTextElements.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 218</value>
+  </data>
+  <data name="lblColorTextElements.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 24</value>
+  </data>
+  <data name="lblColorTextElements.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblColorTextElements.Text" xml:space="preserve">
+    <value>Цвет текста элементов:</value>
+  </data>
+  <data name="&gt;&gt;lblColorTextElements.Name" xml:space="preserve">
+    <value>lblColorTextElements</value>
+  </data>
+  <data name="&gt;&gt;lblColorTextElements.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblColorTextElements.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblColorTextElements.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="textBoxBackgroundColorElements.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="textBoxBackgroundColorElements.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 66</value>
+  </data>
+  <data name="textBoxBackgroundColorElements.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 29</value>
+  </data>
+  <data name="textBoxBackgroundColorElements.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;textBoxBackgroundColorElements.Name" xml:space="preserve">
+    <value>textBoxBackgroundColorElements</value>
+  </data>
+  <data name="&gt;&gt;textBoxBackgroundColorElements.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxBackgroundColorElements.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxBackgroundColorElements.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblBackgroundColorElements.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBackgroundColorElements.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="lblBackgroundColorElements.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 71</value>
+  </data>
+  <data name="lblBackgroundColorElements.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 24</value>
+  </data>
+  <data name="lblBackgroundColorElements.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblBackgroundColorElements.Text" xml:space="preserve">
+    <value>Фоновой цвет элементов:</value>
+  </data>
+  <data name="&gt;&gt;lblBackgroundColorElements.Name" xml:space="preserve">
+    <value>lblBackgroundColorElements</value>
+  </data>
+  <data name="&gt;&gt;lblBackgroundColorElements.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBackgroundColorElements.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblBackgroundColorElements.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnSettingsExport.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="btnSettingsExport.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="btnSettingsExport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 367</value>
+  </data>
+  <data name="btnSettingsExport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 42</value>
+  </data>
+  <data name="btnSettingsExport.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btnSettingsExport.Text" xml:space="preserve">
+    <value>Экспортировать тему</value>
+  </data>
+  <data name="&gt;&gt;btnSettingsExport.Name" xml:space="preserve">
+    <value>btnSettingsExport</value>
+  </data>
+  <data name="&gt;&gt;btnSettingsExport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSettingsExport.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnSettingsExport.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnSettingsImport.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="btnSettingsImport.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="btnSettingsImport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 367</value>
+  </data>
+  <data name="btnSettingsImport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 42</value>
+  </data>
+  <data name="btnSettingsImport.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btnSettingsImport.Text" xml:space="preserve">
+    <value>Импортировать тему</value>
+  </data>
+  <data name="&gt;&gt;btnSettingsImport.Name" xml:space="preserve">
+    <value>btnSettingsImport</value>
+  </data>
+  <data name="&gt;&gt;btnSettingsImport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSettingsImport.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnSettingsImport.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>576, 423</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Моя тема</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MyTheme</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
