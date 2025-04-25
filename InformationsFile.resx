@@ -126,14 +126,17 @@
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="textBoxMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
+    <value>16, 15</value>
+  </data>
+  <data name="textBoxMain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="textBoxMain.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="textBoxMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>780, 443</value>
+    <value>1040, 545</value>
   </data>
   <data name="textBoxMain.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -157,10 +160,10 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>8, 16</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>804, 467</value>
+    <value>1072, 575</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -381,8 +384,8 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
 </value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

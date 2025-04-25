@@ -130,10 +130,13 @@
     <value>NoControl</value>
   </data>
   <data name="lblLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 9</value>
+    <value>16, 11</value>
+  </data>
+  <data name="lblLanguage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="lblLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 24</value>
+    <value>217, 29</value>
   </data>
   <data name="lblLanguage.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -160,10 +163,13 @@
     <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
   <data name="comboBoxLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 36</value>
+    <value>21, 44</value>
+  </data>
+  <data name="comboBoxLanguage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="comboBoxLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>292, 32</value>
+    <value>388, 37</value>
   </data>
   <data name="comboBoxLanguage.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -190,10 +196,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnSaveSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 78</value>
+    <value>21, 96</value>
+  </data>
+  <data name="btnSaveSettings.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="btnSaveSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>292, 42</value>
+    <value>389, 52</value>
   </data>
   <data name="btnSaveSettings.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -217,10 +226,13 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>8, 16</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>320, 132</value>
+    <value>427, 162</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

@@ -48,6 +48,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.IndianRed;
             this.Controls.Add(this.textBoxMain);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MinimizeBox = false;
             this.Name = "InformationsFile";
             this.Load += new System.EventHandler(this.InformationsFile_Load);

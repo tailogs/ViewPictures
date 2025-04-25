@@ -82,6 +82,7 @@
             // menuStripMain
             // 
             this.menuStripMain.BackColor = System.Drawing.Color.LightCoral;
+            this.menuStripMain.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStripMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.файлToolStripMenuItem,
             this.изображениеToolStripMenuItem,

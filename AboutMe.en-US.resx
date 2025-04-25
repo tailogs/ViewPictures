@@ -127,8 +127,12 @@
   <data name="lblOpenDeveloperPage.Size" type="System.Drawing.Size, System.Drawing">
     <value>273, 31</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblOpenDeveloperPage.TabIndex" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="lblOpenDeveloperPage.Text" xml:space="preserve">
-    <value>Open developer page</value>
+    <value>  Open developer page</value>
   </data>
   <data name="lblGmailDeveloper.Size" type="System.Drawing.Size, System.Drawing">
     <value>191, 29</value>
@@ -136,11 +140,8 @@
   <data name="lblGmailDeveloper.Text" xml:space="preserve">
     <value>Gmail developer</value>
   </data>
-  <data name="lblYandexDeveloper.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 29</value>
-  </data>
-  <data name="lblYandexDeveloper.Text" xml:space="preserve">
-    <value>Yandex developer</value>
+  <data name="btnCopyGmail.Text" xml:space="preserve">
+    <value>Copy</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -361,11 +362,16 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
 </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Inherit</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>About me</value>
+  </data>
+  <data name="lblYandexDeveloper.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 29</value>
+  </data>
+  <data name="lblYandexDeveloper.Text" xml:space="preserve">
+    <value>Yandex developer</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
 </root>

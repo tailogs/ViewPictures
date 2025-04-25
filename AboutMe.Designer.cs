@@ -33,8 +33,8 @@
             this.lblOpenDeveloperPage = new System.Windows.Forms.Label();
             this.lblGmailDeveloper = new System.Windows.Forms.Label();
             this.textBoxGmailDeveloper = new System.Windows.Forms.TextBox();
-            this.textBoxYandexDeveloper = new System.Windows.Forms.TextBox();
-            this.lblYandexDeveloper = new System.Windows.Forms.Label();
+            this.btnCopyGmail = new System.Windows.Forms.Button();
+            this.lblVersion = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblAuthor
@@ -65,35 +65,38 @@
             this.textBoxGmailDeveloper.ForeColor = System.Drawing.Color.Pink;
             this.textBoxGmailDeveloper.Name = "textBoxGmailDeveloper";
             this.textBoxGmailDeveloper.ReadOnly = true;
+            this.textBoxGmailDeveloper.TextChanged += new System.EventHandler(this.textBoxGmailDeveloper_TextChanged);
+            this.textBoxGmailDeveloper.MouseDown += new System.Windows.Forms.MouseEventHandler(this.textBoxGmailDeveloper_MouseDown);
             // 
-            // textBoxYandexDeveloper
+            // btnCopyGmail
             // 
-            this.textBoxYandexDeveloper.BackColor = System.Drawing.Color.IndianRed;
-            this.textBoxYandexDeveloper.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            resources.ApplyResources(this.textBoxYandexDeveloper, "textBoxYandexDeveloper");
-            this.textBoxYandexDeveloper.ForeColor = System.Drawing.Color.Pink;
-            this.textBoxYandexDeveloper.Name = "textBoxYandexDeveloper";
-            this.textBoxYandexDeveloper.ReadOnly = true;
+            this.btnCopyGmail.BackColor = System.Drawing.Color.Maroon;
+            resources.ApplyResources(this.btnCopyGmail, "btnCopyGmail");
+            this.btnCopyGmail.ForeColor = System.Drawing.Color.Pink;
+            this.btnCopyGmail.Name = "btnCopyGmail";
+            this.btnCopyGmail.UseVisualStyleBackColor = false;
+            this.btnCopyGmail.Click += new System.EventHandler(this.btnCopyGmail_Click);
             // 
-            // lblYandexDeveloper
+            // lblVersion
             // 
-            resources.ApplyResources(this.lblYandexDeveloper, "lblYandexDeveloper");
-            this.lblYandexDeveloper.ForeColor = System.Drawing.Color.Pink;
-            this.lblYandexDeveloper.Name = "lblYandexDeveloper";
+            resources.ApplyResources(this.lblVersion, "lblVersion");
+            this.lblVersion.ForeColor = System.Drawing.Color.Pink;
+            this.lblVersion.Name = "lblVersion";
             // 
             // AboutMe
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.IndianRed;
-            this.Controls.Add(this.textBoxYandexDeveloper);
-            this.Controls.Add(this.lblYandexDeveloper);
+            this.Controls.Add(this.lblVersion);
+            this.Controls.Add(this.btnCopyGmail);
             this.Controls.Add(this.textBoxGmailDeveloper);
             this.Controls.Add(this.lblGmailDeveloper);
             this.Controls.Add(this.lblOpenDeveloperPage);
             this.Controls.Add(this.lblAuthor);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "AboutMe";
+            this.Load += new System.EventHandler(this.AboutMe_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.AboutMe_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -106,7 +109,7 @@
         private System.Windows.Forms.Label lblOpenDeveloperPage;
         private System.Windows.Forms.Label lblGmailDeveloper;
         private System.Windows.Forms.TextBox textBoxGmailDeveloper;
-        private System.Windows.Forms.TextBox textBoxYandexDeveloper;
-        private System.Windows.Forms.Label lblYandexDeveloper;
+        private System.Windows.Forms.Button btnCopyGmail;
+        private System.Windows.Forms.Label lblVersion;
     }
 }
